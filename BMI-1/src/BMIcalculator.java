@@ -12,15 +12,16 @@ public class BMIcalculator {
         
         if (bmi < 18.5) {
             System.out.println("You are underweight.");
-        } else if (bmi < 24.9) {
+        } else if (bmi < 24.5) {
+
             System.out.println("You have a normal weight.");
-        } else if (bmi < 29.9) {
+        } else if (bmi < 29.5) {
             System.out.println("You are overweight.");
         } else {
             System.out.println("You are obese.");
         }
         
-        
+
         scanner.close();
     }
 }
